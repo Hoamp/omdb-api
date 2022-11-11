@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thom Movi DB</title>
+    <link rel="stylesheet" href="source/css/bootstrap.min.css" />
+</head>
+<body>
+    <!-- Start Container -->
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <h1>Thom Movie DB</h1>
+            </div>
+        </div>
+
+        <!-- Searching -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control input-keyword" placeholder="Search Movie" autofocus>
+                    <button class="btn btn-primary btn-outline-white search-button" type="button" id="button-addon2">Search</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row movie-container"></div>
+    </div>
+    <!-- End Container -->
+    
+    <!-- Start Modal -->
+    <div class="modal fade" id="movieDetailModal" tabindex="-1" aria-labelledby="movieDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="movieDetailModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+            
+    
+    <script src="source/js/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
